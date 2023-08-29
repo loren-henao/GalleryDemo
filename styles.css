@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.yo {
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+width: 120%;
+
+
+}
+
+.hero {
+    background-color: #222;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.services, .portfolio, .contact {
+    background-color: white;
+}
+
+.services h2, .portfolio h2, .contact h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.services p {
+    font-family:fantasy;
+    font-size: 20px;
+}
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
